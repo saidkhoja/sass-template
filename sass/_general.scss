@@ -1,0 +1,23 @@
+/* GENERAL */ 
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family:$fontFamily;
+    font-weight:600;
+    background-color: #fff;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+} 
